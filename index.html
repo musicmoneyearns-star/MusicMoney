@@ -3,32 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MusicMoney – Earn R0.40 per 30-Second Song | African Music</title>
+  <title>MusicMoney – Earn to Listen, Get Heard</title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
       background: #1e1e2e;
       color: #fff;
-      line-height: 1.6;
-    }
-    header {
-      background: #6A0DAD;
-      padding: 20px;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 28px;
     }
     nav {
-      background: #4a008a;
-      padding: 10px;
+      background: #6A0DAD;
+      padding: 15px;
       text-align: center;
     }
     nav a {
       color: #fff;
-      margin: 0 15px;
+      margin: 0 10px;
       text-decoration: none;
       font-weight: bold;
     }
@@ -36,70 +26,18 @@
       max-width: 900px;
       margin: 20px auto;
       padding: 20px;
-    }
-    .hero {
       text-align: center;
-      padding: 40px 20px;
-      background: #00BFFF;
-      color: #000;
-      border-radius: 10px;
-    }
-    .hero h2 {
-      font-size: 30px;
     }
     .btn {
       display: inline-block;
       background: #FFD700;
       color: #000;
       padding: 12px 25px;
-      margin: 10px 0;
+      margin: 15px 0;
       border-radius: 50px;
       text-decoration: none;
       font-weight: bold;
       font-size: 18px;
-    }
-    .section {
-      background: #2c2c3d;
-      padding: 20px;
-      margin: 20px 0;
-      border-radius: 10px;
-    }
-    .yt-preview {
-      position: relative;
-      width: 100%;
-      height: 0;
-      padding-bottom: 56.25%; /* 16:9 aspect ratio */
-      overflow: hidden;
-      border-radius: 10px;
-      background: #000;
-      margin: 15px 0;
-    }
-    .yt-preview img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    .yt-preview::after {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.4);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .yt-preview::before {
-      content: '▶';
-      position: absolute;
-      color: #fff;
-      font-size: 60px;
-      opacity: 0.8;
     }
     footer {
       text-align: center;
@@ -107,114 +45,28 @@
       color: #aaa;
       font-size: 14px;
     }
-    @media (max-width: 600px) {
-      nav a {
-        display: block;
-        margin: 10px 0;
-      }
-    }
   </style>
 </head>
 <body>
-
-  <header>
-    <h1>🎵 MusicMoney</h1>
-  </header>
-
   <nav>
-    <a href="#home">Home</a>
-    <a href="#artists">Artists</a>
-    <a href="#listeners">Listeners</a>
-    <a href="#subscribe">Subscribe</a>
-    <a href="#contact">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="artists.html">Artists</a>
+    <a href="listeners.html">Listeners</a>
+    <a href="subscribe.html">Subscribe</a>
+    <a href="contact.html">Contact</a>
   </nav>
 
-  <div class="container" id="home">
-
-    <!-- 🔥 HERO SECTION -->
-    <div class="hero">
-      <h2>Earn R0.40 for Every 30-Second Song You Listen To</h2>
-      <p>Hear new African music. Get paid in airtime or cash.</p>
-      <a href="#listeners" class="btn">Start Listening →</a>
-      <p><small>✅ Earn R0.40/listen | 💵 Min. payout: R30 | 📅 Paid every Monday</small></p>
-    </div>
-
-    <!-- 🎤 FOR ARTISTS -->
-    <div class="section" id="artists">
-      <h2 🎤 For Artists</h2>
-      <p>Submit your song link → get real listens + real streams.</p>
-      <ul>
-        <li>Send your <strong>YouTube, Spotify, or Boomplay link</strong></li>
-        <li>We play a 30-second preview to real listeners</li>
-        <li>They earn R0.40 — you earn real fans & platform streams</li>
-        <li>Perfect for Amapiano, Afrobeat, Gqom, Hip Hop & more</li>
-      </ul>
-      <p>👉 We’ll feature your song in "Artist of the Day"!</p>
-      <a href="https://forms.gle/vgUtsYbjJ7VXHtPR7" class="btn">Submit Your Song →</a>
-    </div>
-
-    <!-- 🎧 FOR LISTENERS -->
-    <div class="section" id="listeners">
-      <h2 🎧 For Listeners</h2>
-      <p>Listen to 30-second previews → earn <strong>R0.40 per listen</strong>.</p>
-      <p><strong>Free Plan:</strong> 2 songs per day</p>
-      <p><strong>Premium:</strong> R20/month = 100 songs/month</p>
-      <p><strong>Earn via:</strong> Airtime (MTN/Vodacom) or Bank Transfer</p>
-      <p><strong>Minimum withdrawal:</strong> R30 (paid every Monday)</p>
-      <p><strong>After 30 seconds, click to stream full song on Spotify/YouTube!</strong></p>
-
-      <!-- Example Player -->
-      <h3>🎧 Example: Listen & Earn</h3>
-      <div class="yt-preview" onclick="window.open('https://youtu.be/VEHj07p0ho4', '_blank')">
-        <img src="https://i.ytimg.com/vi/VEHj07p0ho4/hqdefault.jpg" alt="Listen & Earn">
-      </div>
-      <p><small>👆 Tap to play on YouTube (30 seconds = R0.40)</small></p>
-
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOYOd02FY9A_D5rsmGlWcbLjFYvnN1Urv9J35c45XgHfQMaA/viewform" class="btn">Join as Listener</a>
-    </div>
-
-    <!-- 💎 SUBSCRIBE -->
-    <div class="section" id="subscribe">
-      <h2 💎 Unlock 100 Songs/Month</h2>
-      <p>Love new music? Go premium!</p>
-      <ul>
-        <li>Pay once: <strong>R20/month</strong></li>
-        <li>Listen to <strong>100 songs/month</strong></li>
-        <li>Still earn <strong>R0.40 per listen</strong> (up to R40/month)</li>
-        <li>No daily limit</li>
-      </ul>
-      <a href="https://t.me/+SGZjefdsPbBhMmNk" class="btn">Join Telegram Group to Pay & Play</a>
-      <p style="font-size:14px; color:#aaa;">
-        💡 After joining, send your OTT Voucher code in the group to activate premium access.
-      </p>
-      <p><small>🎉 First 20 users get 7 extra days FREE!</small></p>
-    </div>
-
-    <!-- 🌟 ARTIST OF THE DAY -->
-    <div class="section">
-      <h2 🌟 Artist of the Day</h2>
-      <p><strong>🔥 Featured: "Soweto Nights" – Official Music Video</strong></p>
-      <div class="yt-preview" onclick="window.open('https://youtu.be/VEHj07p0ho4', '_blank')">
-        <img src="https://i.ytimg.com/vi/VEHj07p0ho4/hqdefault.jpg" alt="Soweto Nights">
-      </div>
-      <p>🎧 Watch 30 seconds → earn R0.40</p>
-      <a href="https://youtu.be/VEHj07p0ho4" target="_blank" class="btn">▶️ Watch Full on YouTube</a>
-    </div>
-
-    <!-- 📞 CONTACT -->
-    <div class="section" id="contact">
-      <h2 📞 Contact Us</h2>
-      <p>📧 Email: <a href="mailto:musicmoneyearns@gmail.com" style="color:#00BFFF">musicmoneyearns@gmail.com</a></p>
-      <p>📱 Telegram: <a href="https://t.me/+SGZjefdsPbBhMmNk" style="color:#00BFFF">Join MusicMoney Group</a></p>
-      <p>📸 Follow: @MusicMoneyZA (Instagram & TikTok)</p>
-    </div>
-
+  <div class="container">
+    <h1>🎵 MusicMoney</h1>
+    <h2>Earn R0.40 for Every 30-Second Song You Listen To</h2>
+    <p>Hear new African music. Get paid in airtime or cash.</p>
+    <a href="listeners.html" class="btn">Start Listening</a>
+    <a href="artists.html" class="btn">Submit Your Song</a>
+    <p><small>✅ Min. payout: R30 | 📅 Paid every Monday | 💬 Via Telegram</small></p>
   </div>
 
   <footer>
-    &copy; 2025 MusicMoney. Made in Johannesburg for Africa.<br>
-    <small>Real previews. Real rewards. Real streams.</small>
+    &copy; 2025 MusicMoney. Made in Johannesburg for Africa.
   </footer>
-
 </body>
-  </html>
+</html>
