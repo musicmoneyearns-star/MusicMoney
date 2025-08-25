@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MusicMoney – For Listeners</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #1e1e2e;
+      color: #fff;
+    }
+    nav {
+      background: #6A0DAD;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+    }
+    .yt-preview {
+      width: 100%;
+      height: 0;
+      padding-bottom: 56.25%;
+      background: #000;
+      margin: 15px 0;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .yt-preview img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .btn {
+      display: inline-block;
+      background: #FFD700;
+      color: #000;
+      padding: 12px 25px;
+      margin: 15px 0;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #aaa;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="artists.html">Artists</a>
+    <a href="listeners.html">Listeners</a>
+    <a href="subscribe.html">Subscribe</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="container">
+    <h1 🎧>For Listeners</h1>
+    <p>Listen to 30-second previews → earn <strong>R0.40 per listen</strong>.</p>
+    <ul style="text-align: left;">
+      <li><strong>Free Plan:</strong> 2 songs per day</li>
+      <li><strong>Premium:</strong> R20/month = 100 songs/month</li>
+      <li><strong>Earn via:</strong> Airtime (MTN/Vodacom) or Bank Transfer</li>
+      <li><strong>Minimum withdrawal:</strong> R30 (paid every Monday)</li>
+    </ul>
+    <p><strong>After 30 seconds, click to stream full song on Spotify/YouTube!</strong></p>
+
+    <h3>🎧 Example: Listen & Earn</h3>
+    <div class="yt-preview" onclick="window.open('https://youtu.be/VEHj07p0ho4', '_blank')">
+      <img src="https://i.ytimg.com/vi/VEHj07p0ho4/hqdefault.jpg" alt="Listen to Soweto Nights">
+    </div>
+    <p><small>👆 Tap to play 30 seconds on YouTube → earn R0.40</small></p>
+
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfOYOd02FY9A_D5rsmGlWcbLjFYvnN1Urv9J35c45XgHfQMaA/viewform" class="btn">Join as Listener</a>
+  </div>
+
+  <footer>
+    &copy; 2025 MusicMoney. Made in Johannesburg for Africa.
+  </footer>
+</body>
+</html>
